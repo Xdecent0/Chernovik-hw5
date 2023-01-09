@@ -1,0 +1,45 @@
+.backButton {
+  cursor: pointer;
+  width: 80px;
+  text-align: center;
+  font-weight: bold;
+  padding: 8px 15px;
+  margin: 4vh;
+  border-radius: 10px;
+  background-color: #c99e10;
+  border: 3px solid rgb(36, 5, 5);
+}
+
+.backButton:hover {
+  background-color: rgb(36, 5, 5);
+  color: white;
+}
+
+.reviews {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: 3px solid rgb(36, 5, 5);
+  margin: 0 4vh;
+  font-weight: bold;
+  color: rgb(36, 5, 5);
+}
+
+.cast {
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 10px;
+  border: 3px solid rgb(36, 5, 5);
+  font-weight: bold;
+  color: rgb(36, 5, 5);
+}
+
+.reviews:hover,
+.cast:hover {
+  background-color: rgb(36, 5, 5);
+  color: white;
+}
+
+.movie__wrapper {
+ display: flex;
+}

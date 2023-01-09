@@ -1,0 +1,22 @@
+.list {
+    margin-top: 5vh;
+    margin-left: 5vh;
+}
+
+.list>li {
+    margin-bottom: 1.5vh;
+}
+
+.list>li:last-child {
+    margin-bottom: 0;
+}
+
+.title {
+    color: rgb(122, 11, 11);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title:hover {
+    color: rgb(36, 5, 5);
+}

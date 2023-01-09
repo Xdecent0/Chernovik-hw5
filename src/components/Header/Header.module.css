@@ -1,0 +1,19 @@
+.header {
+  padding: 4vh;
+  background-color: #1E434C;
+  box-shadow: 0px -12px 5px -2px rgba(13, 27, 30, 0.74) inset;
+  font-weight: bold;
+}
+
+.navigation {
+  padding: 1vh;
+}
+
+.navigation:last-child {
+  margin-left: 4vh;
+}
+
+.navigation:hover {
+  border: 1px solid #c99e10;
+  color: #c99e10;
+}
