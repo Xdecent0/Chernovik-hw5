@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/Chernovik-hw5/static/css/main.48f2b54a.css",
-    "main.js": "/Chernovik-hw5/static/js/main.56397f36.js",
+    "main.js": "/Chernovik-hw5/static/js/main.7c10f5aa.js",
     "static/css/674.cc9657d1.chunk.css": "/Chernovik-hw5/static/css/674.cc9657d1.chunk.css",
     "static/js/674.b5219fcc.chunk.js": "/Chernovik-hw5/static/js/674.b5219fcc.chunk.js",
     "static/css/835.3250a172.chunk.css": "/Chernovik-hw5/static/css/835.3250a172.chunk.css",
     "static/js/835.744a23f8.chunk.js": "/Chernovik-hw5/static/js/835.744a23f8.chunk.js",
-    "static/css/817.fe4caf71.chunk.css": "/Chernovik-hw5/static/css/817.fe4caf71.chunk.css",
-    "static/js/817.04d44e9d.chunk.js": "/Chernovik-hw5/static/js/817.04d44e9d.chunk.js",
+    "static/css/888.ad0f02f9.chunk.css": "/Chernovik-hw5/static/css/888.ad0f02f9.chunk.css",
+    "static/js/888.8ba6f1f4.chunk.js": "/Chernovik-hw5/static/js/888.8ba6f1f4.chunk.js",
     "static/js/186.c536277c.chunk.js": "/Chernovik-hw5/static/js/186.c536277c.chunk.js",
-    "static/css/900.e1696d3b.chunk.css": "/Chernovik-hw5/static/css/900.e1696d3b.chunk.css",
-    "static/js/900.fa46bd88.chunk.js": "/Chernovik-hw5/static/js/900.fa46bd88.chunk.js",
+    "static/css/76.a909a466.chunk.css": "/Chernovik-hw5/static/css/76.a909a466.chunk.css",
+    "static/js/76.e7d0bdf9.chunk.js": "/Chernovik-hw5/static/js/76.e7d0bdf9.chunk.js",
     "static/js/602.c3204c09.chunk.js": "/Chernovik-hw5/static/js/602.c3204c09.chunk.js",
     "index.html": "/Chernovik-hw5/index.html",
     "main.48f2b54a.css.map": "/Chernovik-hw5/static/css/main.48f2b54a.css.map",
-    "main.56397f36.js.map": "/Chernovik-hw5/static/js/main.56397f36.js.map",
+    "main.7c10f5aa.js.map": "/Chernovik-hw5/static/js/main.7c10f5aa.js.map",
     "674.cc9657d1.chunk.css.map": "/Chernovik-hw5/static/css/674.cc9657d1.chunk.css.map",
     "674.b5219fcc.chunk.js.map": "/Chernovik-hw5/static/js/674.b5219fcc.chunk.js.map",
     "835.3250a172.chunk.css.map": "/Chernovik-hw5/static/css/835.3250a172.chunk.css.map",
     "835.744a23f8.chunk.js.map": "/Chernovik-hw5/static/js/835.744a23f8.chunk.js.map",
-    "817.fe4caf71.chunk.css.map": "/Chernovik-hw5/static/css/817.fe4caf71.chunk.css.map",
-    "817.04d44e9d.chunk.js.map": "/Chernovik-hw5/static/js/817.04d44e9d.chunk.js.map",
+    "888.ad0f02f9.chunk.css.map": "/Chernovik-hw5/static/css/888.ad0f02f9.chunk.css.map",
+    "888.8ba6f1f4.chunk.js.map": "/Chernovik-hw5/static/js/888.8ba6f1f4.chunk.js.map",
     "186.c536277c.chunk.js.map": "/Chernovik-hw5/static/js/186.c536277c.chunk.js.map",
-    "900.e1696d3b.chunk.css.map": "/Chernovik-hw5/static/css/900.e1696d3b.chunk.css.map",
-    "900.fa46bd88.chunk.js.map": "/Chernovik-hw5/static/js/900.fa46bd88.chunk.js.map",
+    "76.a909a466.chunk.css.map": "/Chernovik-hw5/static/css/76.a909a466.chunk.css.map",
+    "76.e7d0bdf9.chunk.js.map": "/Chernovik-hw5/static/js/76.e7d0bdf9.chunk.js.map",
     "602.c3204c09.chunk.js.map": "/Chernovik-hw5/static/js/602.c3204c09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48f2b54a.css",
-    "static/js/main.56397f36.js"
+    "static/js/main.7c10f5aa.js"
   ]
 }
