@@ -1,5 +1,4 @@
 import style from './MovieDetails.module.css';
-import Container from '../Container/Container';
 import { useEffect, useState } from 'react';
 import {
   NavLink,
@@ -11,19 +10,19 @@ import {
 import { getMovieDetails } from '../../service/movie-api';
 
 export default function MovieDetailsPage() {
-  const [movie, setMovie] = useState(null);
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(false);
+const [movie, setMovie] = useState(null);
+const [error, setError] = useState(null);
+const [loading, setLoading] = useState(false);
 
-  const getYear = () => new Date(movie.release_date).getFullYear();
+const getYear = () => new Date(movie.release_date).getFullYear();
 
-  const { movieId } = useParams();
-  const location = useLocation();
-  const navigate = useNavigate();
+const { movieId } = useParams();
+const location = useLocation();
+const navigate = useNavigate();
 
-  const handleClick = () => navigate(location?.state?.from ?? '/');
+const handleClick = () => navigate(location?.state?.from ?? '/');
 
-  useEffect(() => {
+useEffect(() => {
     setLoading(true);
     getMovieDetails(movieId)
       .then(res => {
@@ -35,33 +34,32 @@ export default function MovieDetailsPage() {
       .finally(() => setLoading(false));
   }, [movieId]);
 
-  return (
+return (
     <>
         <button onClick={handleClick} className={style.backButton}>
-          Go back
-      </button>
-      <Container>
+        Go back
+    </button>
+    <div className={style.details__wrapper}>
         {loading && 'Loading ...'}
         {error && <div>{error}</div>}
         {movie && (
-          <div>
-            <h3>{movie.title}({getYear()})</h3>
+        <div>
+            <h3 className={style.movie__title}>{movie.title}({getYear()})</h3>
             <div className={style.movie__wrapper}>
             <img
-              src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`}
-              alt={movie.title}
+                src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`}
+                alt={movie.title}
             />
-            <div className="movie__overview">
-              <h3>Overview</h3>
-              <p>{movie.overview}</p>
-              </div>
-              </div>
-          </div>
+            <div className={style.movie__overview}>
+                <h3>Overview</h3>
+                <p>{movie.overview}</p>
+                </div>
+                </div>
+        </div>
         )}
-        <hr />
-        <div>
-          <h2>Additional Information</h2>
-          <NavLink
+        <div className={style.additional__wrapper}>
+        <h2>Additional Information</h2>
+        <NavLink
             to={`/movies/${movieId}/reviews`}
             state={location.state}
           >
@@ -74,10 +72,9 @@ export default function MovieDetailsPage() {
           >
             <p className={style.cast}>Cast</p>
           </NavLink>
-          <hr />
           <Outlet />
         </div>
-      </Container>
+      </div>
     </>
   );
 }

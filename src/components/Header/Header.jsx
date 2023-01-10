@@ -1,4 +1,4 @@
-import style from "./Header.module.css"
+import style from "../Header/Header.module.css"
 import { StyledLink } from './Header.styled';
 
 const Header = () => {

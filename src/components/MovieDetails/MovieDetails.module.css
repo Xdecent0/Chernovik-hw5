@@ -1,45 +1,67 @@
 .backButton {
-  cursor: pointer;
-  width: 80px;
-  text-align: center;
-  font-weight: bold;
-  padding: 8px 15px;
-  margin: 4vh;
-  border-radius: 10px;
-  background-color: #c99e10;
-  border: 3px solid rgb(36, 5, 5);
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin: 4vh;
+    border-radius: 10px;
+    background-color: #c99e10;
+    border: 3px solid rgb(36, 5, 5);
 }
 
 .backButton:hover {
-  background-color: rgb(36, 5, 5);
-  color: white;
+    background-color: rgb(36, 5, 5);
+    color: white;
 }
 
 .reviews {
-  display: inline-block;
-  padding: 8px 15px;
-  border-radius: 10px;
-  border: 3px solid rgb(36, 5, 5);
-  margin: 0 4vh;
-  font-weight: bold;
-  color: rgb(36, 5, 5);
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 10px;
+    border: 3px solid rgb(36, 5, 5);
+    margin-right: 4vh;
+    font-weight: bold;
+    color: rgb(36, 5, 5);
 }
 
 .cast {
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 10px;
-  border: 3px solid rgb(36, 5, 5);
-  font-weight: bold;
-  color: rgb(36, 5, 5);
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border: 3px solid rgb(36, 5, 5);
+    font-weight: bold;
+    color: rgb(36, 5, 5);
 }
 
 .reviews:hover,
 .cast:hover {
-  background-color: rgb(36, 5, 5);
-  color: white;
+    background-color: rgb(36, 5, 5);
+    color: white;
 }
 
 .movie__wrapper {
- display: flex;
+    display: flex;
+}
+
+.movie__overview {
+    margin-left: 2vh;
+}
+
+.movie__title {
+    margin-bottom: 2vh;
+}
+.details__wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+}
+
+.additional__wrapper {
+    margin-top: 2vh;
+    padding-top: 2vh;
+    border-top: rgb(36, 5, 5) 2px solid;
 }
